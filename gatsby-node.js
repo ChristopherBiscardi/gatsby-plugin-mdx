@@ -1,14 +1,9 @@
-'use strict';
-
 // const webpack = require(`webpack`)
 
 // Add Glamor support
-exports.modifyWebpackConfig = function (_ref) {
-  var config = _ref.config,
-      stage = _ref.stage;
-
-  var mdFiles = /\.md$/;
-  config.loader('mdx', {
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  const mdFiles = /\.md$/;
+  config.loader(`mdx`, {
     test: mdFiles,
     loaders: ['babel-loader?' + 'babelrc=false,' + 'presets[]=env,' + 'presets[]=react', '@mdx-js/loader']
   });
