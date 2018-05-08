@@ -12,6 +12,12 @@ then
 yarn add @mdx-js/loader @mdx-js/loader loader-utils --dev
 ```
 
+In your gatsby-config.js
+```
+  plugins: ['gatsby-plugin-mdx'],
+
+```
+
 ## Usage
 
 Check mdx document for syntax more examples: https://github.com/mdx-js/mdx#mdx-syntax
