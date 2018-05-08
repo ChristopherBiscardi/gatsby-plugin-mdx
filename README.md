@@ -20,4 +20,4 @@ In your gatsby-config.js
 
 ## Usage
 
-Check mdx document for syntax more examples: https://github.com/mdx-js/mdx#mdx-syntax
+Check mdx document for syntax and examples: https://github.com/mdx-js/mdx#mdx-syntax
