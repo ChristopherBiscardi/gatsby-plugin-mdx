@@ -9,7 +9,7 @@ yarn add gatsby-plugin-mdx
 then
 
 ```
-yarn add @mdx-js/loader @mdx-js/loader loader-utils --dev
+yarn add @mdx-js/mdx @mdx-js/loader loader-utils --dev
 ```
 
 In your gatsby-config.js
