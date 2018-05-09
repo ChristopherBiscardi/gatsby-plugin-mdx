@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-mdx",
   "version": "1.0.0",
-  "description": "",
+  "description": "mdx plugin for gatsby",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir . --ignore __tests__",
@@ -15,8 +15,8 @@
     "mdx",
     "jsx"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Duc Nguyen",
+  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
