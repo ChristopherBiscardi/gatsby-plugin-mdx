@@ -2,7 +2,7 @@
 
 // Add Glamor support
 exports.modifyWebpackConfig = ({ config, stage }) => {
-  const mdFiles = /\.md$/
+  const mdFiles = /\.mdx?$/
   config.loader(`mdx`, {
     test: mdFiles,
     loaders: [
