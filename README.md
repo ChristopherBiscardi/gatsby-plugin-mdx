@@ -23,6 +23,8 @@ In your gatsby-config.js
 Check mdx document for syntax and examples: https://github.com/mdx-js/mdx#mdx-syntax
 
 
-##Example
+## Example
 
 Check `examples` folder for working examples
+
+[Basic](https://github.com/nhducit/gatsby-plugin-mdx/blob/master/examples/basic/README.md): 
