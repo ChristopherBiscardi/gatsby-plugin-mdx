@@ -21,3 +21,8 @@ In your gatsby-config.js
 ## Usage
 
 Check mdx document for syntax and examples: https://github.com/mdx-js/mdx#mdx-syntax
+
+
+##Example
+
+Check `examples` folder for working examples
