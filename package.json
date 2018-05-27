@@ -17,11 +17,7 @@
   ],
   "author": "Duc Nguyen",
   "license": "MIT",
-  "dependencies": {
-    "chart.js": "^2.7.2",
-    "chartjs": "^0.3.24",
-    "react-chartjs-2": "^2.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "cross-env": "^5.0.5"
