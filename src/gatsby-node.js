@@ -2,7 +2,7 @@ export function resolvableExtensions() {
   return [`.md`]
 }
 
-export function onCreateWebpackConfig = ({ actions }) => {
+export function onCreateWebpackConfig({ actions }) {
   const mdFiles = /\.mdx?$/
   actions.setWebpackConfig({
     module: {
