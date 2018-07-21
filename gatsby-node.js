@@ -1,8 +1,8 @@
-export function resolvableExtensions() {
+exports.resolvableExtensions = function () {
   return [`.md`];
-}
+};
 
-export function onCreateWebpackConfig({ actions }) {
+exports.onCreateWebpackConfig = function ({ actions }) {
   const mdFiles = /\.mdx?$/;
   actions.setWebpackConfig({
     module: {
@@ -12,4 +12,4 @@ export function onCreateWebpackConfig({ actions }) {
       }]
     }
   });
-}
+};
