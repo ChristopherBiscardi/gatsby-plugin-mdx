@@ -1,20 +1,20 @@
-// const webpack = require(`webpack`)
-
-// Add Glamor support
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  const mdFiles = /\.mdx?$/
-  config.loader(`mdx`, {
-    test: mdFiles,
-    loaders: [
-      'babel-loader?' + 'babelrc=false,' + 'presets[]=env,' + 'presets[]=react',
-      '@mdx-js/loader',
-    ],
-  })
+export function resolvableExtensions() {
+  return [`.md`]
 }
 
-// Add Glamor support
-// exports.modifyBabelrc = ({ babelrc }) => {
-//   return Object.assign(babelrc, {
-//     plugins: babelrc.plugins.concat(['@mdx-js/loader']),
-//   })
-// }
+export function onCreateWebpackConfig = ({ actions }) => {
+  const mdFiles = /\.mdx?$/
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: mdFiles,
+          use: [
+            'babel-loader?' + 'babelrc=false,' + 'presets[]=env,' + 'presets[]=react',
+            '@mdx-js/loader',
+          ],
+        },
+      ],
+    },
+  })
+}
