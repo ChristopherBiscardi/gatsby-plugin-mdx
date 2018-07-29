@@ -1,5 +1,7 @@
 # gatsby-plugin-mdx
 
+this plugin is only applied to gatsby v1. for v2 please use [gatsby-mdx](https://github.com/ChristopherBiscardi/gatsby-mdx) 
+
 ## Installation
 
 ```
